@@ -1,31 +1,37 @@
-<div align="center">
+<div align="right">
 
-<img src="./assets/brand/keerty-mark.svg" width="720" alt="Vakada Keerty">
+<img src="./assets/brand/keerty-mark.svg" width="170" alt="Keerty">
 
-<br><br>
+</div>
 
 # VAKADA KEERTY
 
-### DATA SCIENTIST · APPLIED AI · ML ENGINEERING
+### Data Scientist
+
+I work across **data, machine learning, and applied AI** — building practical solutions, experimenting with intelligent systems, and turning data into useful outcomes.
 
 <br>
 
-> **Turning data into intelligent solutions.**
-
-<br>
-
-`MACHINE LEARNING` &nbsp;·&nbsp; `APPLIED AI` &nbsp;·&nbsp; `DATA ANALYTICS`
-
-<br><br>
-
-[![GitHub](https://img.shields.io/badge/GitHub-0B0A14?style=for-the-badge&logo=github&logoColor=E8E0FF)](https://github.com/keerty34)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0B0A14?style=for-the-badge&logo=linkedin&logoColor=C8B6FF)](https://www.linkedin.com/)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-0B0A14?style=for-the-badge&logo=gmail&logoColor=B79CFF)](mailto:your-email@example.com)
+> **Currently exploring:** Applied AI · Generative AI · Machine Learning · RAG
 
 <br>
 
 ---
 
-</div>
+### What I work with
+
+`Python` `SQL` `Pandas` `NumPy` `Scikit-learn`  
+`Machine Learning` `Generative AI` `LLMs` `RAG`  
+`Power BI` `Tableau` `Data Visualization`
+
+<br>
+
+### What I'm building toward
+
+**Data → Machine Learning → Applied AI → Intelligent Systems**
+
+<br>
+
+[ GitHub ](https://github.com/keerty34) · [ LinkedIn ](#) · [ Projects ](#)
+
+---
