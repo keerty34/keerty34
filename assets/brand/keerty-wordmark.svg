@@ -1,0 +1,636 @@
+<svg
+  width="1000"
+  height="260"
+  viewBox="0 0 1000 260"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-label="Vakada Keerty — Data Scientist, Applied AI, ML Engineering"
+>
+
+  <defs>
+
+    <!-- ========================================= -->
+    <!-- MAIN LAVENDER GRADIENT -->
+    <!-- ========================================= -->
+
+    <linearGradient
+      id="lavender"
+      x1="120"
+      y1="60"
+      x2="760"
+      y2="190"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0%" stop-color="#E8E0FF"/>
+      <stop offset="35%" stop-color="#C8B6FF"/>
+      <stop offset="70%" stop-color="#B79CFF"/>
+      <stop offset="100%" stop-color="#8B7CF6"/>
+    </linearGradient>
+
+
+    <!-- ========================================= -->
+    <!-- K MARK GRADIENT -->
+    <!-- ========================================= -->
+
+    <linearGradient
+      id="glow"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="1"
+    >
+      <stop offset="0%" stop-color="#E8E0FF"/>
+      <stop offset="100%" stop-color="#8B7CF6"/>
+    </linearGradient>
+
+
+    <!-- ========================================= -->
+    <!-- ACCENT GRADIENT -->
+    <!-- ========================================= -->
+
+    <linearGradient
+      id="accent"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="1"
+    >
+      <stop offset="0%" stop-color="#C8B6FF"/>
+      <stop offset="100%" stop-color="#8B7CF6"/>
+    </linearGradient>
+
+
+    <!-- ========================================= -->
+    <!-- SOFT GLOW -->
+    <!-- ========================================= -->
+
+    <filter
+      id="softGlow"
+      x="-50%"
+      y="-50%"
+      width="200%"
+      height="200%"
+    >
+
+      <feGaussianBlur
+        stdDeviation="4"
+        result="blur"
+      />
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+
+    <!-- ========================================= -->
+    <!-- ANIMATIONS -->
+    <!-- ========================================= -->
+
+    <style>
+
+      /* ----------------------------------------- */
+      /* ORBIT */
+      /* ----------------------------------------- */
+
+      .orbit-top {
+        stroke-dasharray: 130;
+        stroke-dashoffset: 130;
+        animation: orbitDraw 1.2s ease-out forwards;
+      }
+
+      .orbit-bottom {
+        stroke-dasharray: 100;
+        stroke-dashoffset: 100;
+        animation: orbitDraw 1.2s ease-out 0.25s forwards;
+      }
+
+
+      /* ----------------------------------------- */
+      /* K STROKES */
+      /* ----------------------------------------- */
+
+      .k-stroke {
+        stroke-dasharray: 160;
+        stroke-dashoffset: 160;
+        animation: drawK 1.3s ease-out forwards;
+      }
+
+      .k-upper {
+        animation-delay: 0.15s;
+      }
+
+      .k-lower {
+        animation-delay: 0.3s;
+      }
+
+
+      /* ----------------------------------------- */
+      /* K NODES */
+      /* ----------------------------------------- */
+
+      .node {
+        opacity: 0;
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: nodeAppear 0.45s ease-out forwards;
+      }
+
+      .node-top {
+        animation-delay: 0.9s;
+      }
+
+      .node-bottom {
+        animation-delay: 1.0s;
+      }
+
+      .node-upper {
+        animation-delay: 1.1s;
+      }
+
+      .node-lower {
+        animation-delay: 1.2s;
+      }
+
+      .orbit-node {
+        opacity: 0;
+        animation: nodeAppear 0.5s ease-out 1.35s forwards;
+      }
+
+
+      /* ----------------------------------------- */
+      /* BRAND NAME */
+      /* ----------------------------------------- */
+
+      .brand-name {
+        opacity: 0;
+        animation: nameAppear 0.9s ease-out 0.7s forwards;
+      }
+
+
+      /* ----------------------------------------- */
+      /* PROFESSIONAL TITLE */
+      /* ----------------------------------------- */
+
+      .brand-title {
+        opacity: 0;
+        animation: titleAppear 0.8s ease-out 1s forwards;
+      }
+
+
+      /* ----------------------------------------- */
+      /* ACCENT LINE */
+      /* ----------------------------------------- */
+
+      .accent-line {
+        transform-origin: left center;
+        transform: scaleX(0);
+        animation: lineReveal 0.8s ease-out 1.35s forwards;
+      }
+
+
+      /* ----------------------------------------- */
+      /* SUBTLE GLOW */
+      /* ----------------------------------------- */
+
+      .mark-glow {
+        animation: markPulse 3.5s ease-in-out 2s infinite;
+      }
+
+
+      /* ----------------------------------------- */
+      /* TECH DOTS */
+      /* ----------------------------------------- */
+
+      .tech-dot {
+        animation: techPulse 2.8s ease-in-out infinite;
+      }
+
+
+      /* ========================================= */
+      /* KEYFRAMES */
+      /* ========================================= */
+
+      @keyframes orbitDraw {
+
+        to {
+          stroke-dashoffset: 0;
+        }
+
+      }
+
+
+      @keyframes drawK {
+
+        to {
+          stroke-dashoffset: 0;
+        }
+
+      }
+
+
+      @keyframes nodeAppear {
+
+        0% {
+          opacity: 0;
+          transform: scale(0.25);
+        }
+
+        70% {
+          opacity: 1;
+          transform: scale(1.15);
+        }
+
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+
+      }
+
+
+      @keyframes nameAppear {
+
+        from {
+          opacity: 0;
+          transform: translateX(-15px);
+        }
+
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+
+      }
+
+
+      @keyframes titleAppear {
+
+        from {
+          opacity: 0;
+          transform: translateY(8px);
+        }
+
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+
+      }
+
+
+      @keyframes lineReveal {
+
+        from {
+          transform: scaleX(0);
+        }
+
+        to {
+          transform: scaleX(1);
+        }
+
+      }
+
+
+      @keyframes markPulse {
+
+        0%,
+        100% {
+          opacity: 0.72;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+      }
+
+
+      @keyframes techPulse {
+
+        0%,
+        100% {
+          opacity: 0.35;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+      }
+
+    </style>
+
+  </defs>
+
+
+  <!-- ========================================= -->
+  <!-- BACKGROUND -->
+  <!-- ========================================= -->
+
+  <rect
+    width="1000"
+    height="260"
+    rx="32"
+    fill="#0B0A14"
+  />
+
+
+  <!-- ========================================= -->
+  <!-- SUBTLE FRAME -->
+  <!-- ========================================= -->
+
+  <path
+    d="M48 48 H952"
+    stroke="#302844"
+    stroke-width="1"
+    stroke-opacity="0.5"
+  />
+
+  <path
+    d="M48 212 H952"
+    stroke="#302844"
+    stroke-width="1"
+    stroke-opacity="0.5"
+  />
+
+
+  <!-- ========================================= -->
+  <!-- PERSONAL MARK -->
+  <!-- ========================================= -->
+
+  <g class="mark-glow">
+
+
+    <!-- --------------------------------------- -->
+    <!-- OUTER TECHNICAL RING -->
+    <!-- --------------------------------------- -->
+
+    <circle
+      cx="115"
+      cy="130"
+      r="72"
+      fill="none"
+      stroke="#302844"
+      stroke-width="2"
+    />
+
+
+    <!-- --------------------------------------- -->
+    <!-- BROKEN ORBIT — TOP -->
+    <!-- --------------------------------------- -->
+
+    <path
+      class="orbit-top"
+      d="M115 58
+         A72 72 0 0 1 181 101"
+      fill="none"
+      stroke="url(#lavender)"
+      stroke-width="4"
+      stroke-linecap="round"
+    />
+
+
+    <!-- --------------------------------------- -->
+    <!-- BROKEN ORBIT — BOTTOM -->
+    <!-- --------------------------------------- -->
+
+    <path
+      class="orbit-bottom"
+      d="M49 155
+         A72 72 0 0 0 98 202"
+      fill="none"
+      stroke="#8B7CF6"
+      stroke-width="4"
+      stroke-linecap="round"
+    />
+
+
+    <!-- --------------------------------------- -->
+    <!-- CENTRAL K -->
+    <!-- --------------------------------------- -->
+
+    <!-- Vertical -->
+
+    <path
+      class="k-stroke"
+      d="M90 95
+         V165"
+      fill="none"
+      stroke="url(#glow)"
+      stroke-width="9"
+      stroke-linecap="round"
+    />
+
+
+    <!-- Upper diagonal -->
+
+    <path
+      class="k-stroke k-upper"
+      d="M90 130
+         L137 95"
+      fill="none"
+      stroke="url(#glow)"
+      stroke-width="9"
+      stroke-linecap="round"
+    />
+
+
+    <!-- Lower diagonal -->
+
+    <path
+      class="k-stroke k-lower"
+      d="M90 130
+         L140 166"
+      fill="none"
+      stroke="url(#glow)"
+      stroke-width="9"
+      stroke-linecap="round"
+    />
+
+
+    <!-- --------------------------------------- -->
+    <!-- FOUR K NODES -->
+    <!-- --------------------------------------- -->
+
+    <!-- TOP -->
+
+    <circle
+      class="node node-top"
+      cx="90"
+      cy="95"
+      r="5"
+      fill="#E8E0FF"
+      filter="url(#softGlow)"
+    />
+
+
+    <!-- BOTTOM — THE DOT YOU POINTED OUT -->
+
+    <circle
+      class="node node-bottom"
+      cx="90"
+      cy="165"
+      r="5"
+      fill="#C8B6FF"
+      filter="url(#softGlow)"
+    />
+
+
+    <!-- UPPER RIGHT -->
+
+    <circle
+      class="node node-upper"
+      cx="137"
+      cy="95"
+      r="5"
+      fill="#B79CFF"
+      filter="url(#softGlow)"
+    />
+
+
+    <!-- LOWER RIGHT -->
+
+    <circle
+      class="node node-lower"
+      cx="140"
+      cy="166"
+      r="5"
+      fill="#8B7CF6"
+      filter="url(#softGlow)"
+    />
+
+
+    <!-- --------------------------------------- -->
+    <!-- ORBIT NODE -->
+    <!-- --------------------------------------- -->
+
+    <circle
+      class="orbit-node"
+      cx="181"
+      cy="101"
+      r="4"
+      fill="#C8B6FF"
+      filter="url(#softGlow)"
+    />
+
+  </g>
+
+
+  <!-- ========================================= -->
+  <!-- NAME -->
+  <!-- ========================================= -->
+
+  <text
+    class="brand-name"
+    x="225"
+    y="130"
+    fill="url(#lavender)"
+    font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif"
+    font-size="54"
+    font-weight="700"
+    letter-spacing="4"
+  >
+    VAKADA KEERTY
+  </text>
+
+
+  <!-- ========================================= -->
+  <!-- PROFESSIONAL IDENTITY -->
+  <!-- ========================================= -->
+
+  <text
+    class="brand-title"
+    x="228"
+    y="164"
+    fill="#B8B1C9"
+    font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif"
+    font-size="16"
+    font-weight="500"
+    letter-spacing="2.5"
+  >
+    DATA SCIENTIST  ·  APPLIED AI  ·  ML ENGINEERING
+  </text>
+
+
+  <!-- ========================================= -->
+  <!-- ACCENT LINE -->
+  <!-- ========================================= -->
+
+  <rect
+    class="accent-line"
+    x="228"
+    y="184"
+    width="285"
+    height="3"
+    rx="1.5"
+    fill="url(#accent)"
+  />
+
+
+  <!-- ========================================= -->
+  <!-- RIGHT TECH DETAILS -->
+  <!-- ========================================= -->
+
+  <circle
+    class="tech-dot"
+    cx="875"
+    cy="70"
+    r="3.5"
+    fill="#DCCFFF"
+  />
+
+  <circle
+    class="tech-dot"
+    cx="895"
+    cy="70"
+    r="3.5"
+    fill="#BFA8FF"
+    style="animation-delay:0.3s"
+  />
+
+  <circle
+    class="tech-dot"
+    cx="915"
+    cy="70"
+    r="3.5"
+    fill="#8B7CF6"
+    style="animation-delay:0.6s"
+  />
+
+
+  <path
+    d="M875 190 H915"
+    stroke="#302844"
+    stroke-width="1"
+  />
+
+
+  <circle
+    class="tech-dot"
+    cx="875"
+    cy="190"
+    r="3"
+    fill="#8B7CF6"
+  />
+
+
+  <!-- ========================================= -->
+  <!-- MICRO BRAND DETAIL -->
+  <!-- ========================================= -->
+
+  <text
+    x="875"
+    y="207"
+    fill="#5F5870"
+    font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif"
+    font-size="8"
+    font-weight="500"
+    letter-spacing="2"
+  >
+    AI · DATA · INSIGHT
+  </text>
+
+</svg>
