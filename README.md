@@ -1,16 +1,20 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**keerty34/keerty34** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="./assets/brand/keerty-mark.svg" width="850" alt="Vakada Keerty — Data Scientist, Applied AI, ML Engineering">
 
-Here are some ideas to get you started:
+<br>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Building with Data. Engineering with Intelligence.
+
+</div>
+
+---
+
+## 👋 About Me
+
+I'm **Vakada Keerty**, a Data Scientist focused on building practical solutions across **Machine Learning, Applied AI, and Data Analytics**.
+
+I enjoy turning raw data into meaningful insights, developing machine learning solutions, and exploring how modern AI can be applied to real-world problems.
+
+```text
+DATA → INSIGHT → MODEL → INTELLIGENCE → IMPACT
