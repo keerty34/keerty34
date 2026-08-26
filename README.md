@@ -1,8 +1,31 @@
-## 👋 About Me
+<div align="center">
 
-I'm **Vakada Keerty**, a Data Scientist focused on building practical solutions across **Machine Learning, Applied AI, and Data Analytics**.
+<img src="./assets/brand/keerty-mark.svg" width="720" alt="Vakada Keerty">
 
-I enjoy turning raw data into meaningful insights, developing machine learning solutions, and exploring how modern AI can be applied to real-world problems.
+<br><br>
 
-```text
-DATA → INSIGHT → MODEL → INTELLIGENCE → IMPACT
+# VAKADA KEERTY
+
+### DATA SCIENTIST · APPLIED AI · ML ENGINEERING
+
+<br>
+
+> **Turning data into intelligent solutions.**
+
+<br>
+
+`MACHINE LEARNING` &nbsp;·&nbsp; `APPLIED AI` &nbsp;·&nbsp; `DATA ANALYTICS`
+
+<br><br>
+
+[![GitHub](https://img.shields.io/badge/GitHub-0B0A14?style=for-the-badge&logo=github&logoColor=E8E0FF)](https://github.com/keerty34)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0B0A14?style=for-the-badge&logo=linkedin&logoColor=C8B6FF)](https://www.linkedin.com/)
+&nbsp;
+[![Email](https://img.shields.io/badge/Email-0B0A14?style=for-the-badge&logo=gmail&logoColor=B79CFF)](mailto:your-email@example.com)
+
+<br>
+
+---
+
+</div>
